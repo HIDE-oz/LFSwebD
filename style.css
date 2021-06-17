@@ -569,6 +569,11 @@ body {
 
 }
 
+.nav_sp{
+  display: none;
+}
+
+
 .nav li {
   width: 300px;
   width: 100%;
@@ -594,6 +599,7 @@ body {
 
 }
 
+
 .preface1 h2 {
   margin-top: 30px;
   font-size: 20px;
@@ -615,6 +621,12 @@ body {
   font-size: 14px;
   line-height: 23px;
 
+}
+
+.menu-title-sp{
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
 }
 
 .merit {
@@ -724,6 +736,7 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
+
 }
 
 .demerit_d p {
@@ -731,7 +744,6 @@ body {
   margin-top: 10px;
   text-align: center;
   margin-bottom: 40px;
-  
 }
 
 .demerit_body{
@@ -1039,8 +1051,6 @@ body {
 .profile img {
   width: 392px;
   height: 247px;
-  
-
 }
 
 .profile h3 {
@@ -1076,7 +1086,6 @@ body {
 
 body{
   width: 100vw;
-
 }
 
 .pc{
@@ -1087,6 +1096,34 @@ body{
   min-width: initial;
 }
 
+.preface1{
+  margin-bottom: 30px;
+}
+
+.menu-title-sp{
+  margin-bottom: 2%;
+  font-size: 20px;
+}
+
+.nav_sp{
+  display: block;
+  width: 65vw;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 4% 10%;
+  box-sizing: border-box;
+}
+
+.merit-box{
+  padding: 20px;
+}
+
+.merit-box p{
+  width: 50vw;
+  margin: 0 auto;
+  
+}
+
 .merit_body{
   display: block;
 }
@@ -1095,13 +1132,13 @@ body{
   min-width: initial;
   height: auto;
   width: 90%;
+  background-image: none;
 }
 
 .demerit_body_sp{
   margin: auto;
   width: 95%;
   display: block;
-
 }
 
 .responsibility_background{
