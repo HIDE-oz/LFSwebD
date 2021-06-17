@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
     <title>犬と二人暮らしぶっちゃけどう？</title>
     <script>
         (function (d) {
@@ -52,11 +52,11 @@
         </div>
     </header>
 
-    <ul class="nav">
-        <li><a href="#" class="btn4">01<br>犬を飼う<br>メリット</a></li>
-        <li><a href="#" class="btn4">02<br>犬を飼う<br>デメリット</a></li>
-        <li><a href="#" class="btn4">03<br>責任問題</a></li>
-        <li><a href="#" class="btn4">04<br>買って<br>よかったもの</a></li>
+    <ul class="nav pc">
+        <li><a href="#merit">01<br>犬を飼う<br>メリット</a></li>
+        <li><a href="#demerit">02<br>犬を飼う<br>デメリット</a></li>
+        <li><a href="#responsibility">03<br>責任問題</a></li>
+        <li><a href="#shopping">04<br>買って<br>よかったもの</a></li>
     </ul>
 
     <div class="preface1">
@@ -74,9 +74,15 @@
         わんちゃんとの日常は楽しいだけではなく辛い面もたくさんあります。
     </div>
 
+    <ul class="nav_sp">
+        <li><a href="#merit">01<br>犬を飼う<br>メリット</a></li>
+        <li><a href="#demerit">02<br>犬を飼う<br>デメリット</a></li>
+        <li><a href="#responsibility">03<br>責任問題</a></li>
+        <li><a href="#shopping">04<br>買って<br>よかったもの</a></li>
+    </ul>
 
     <main>
-        <div class="merit">
+        <div class="merit" id="merit">
 
             <div class="merit_background">
 
@@ -121,10 +127,11 @@
                         </p>
                     </div>
                 </div>
+
             </div>
         </div>
 
-        <div class="demerit">
+        <div class="demerit" id="demerit">
 
             <div class="demerit_background">
 
@@ -136,7 +143,7 @@
                     </p>
                 </div>
 
-                <div class="demerit_body">
+                <div class="demerit_body pc">
 
                     <div class="demerit-box">
 
@@ -150,7 +157,7 @@
                         </div>
                         
                         <div class="img-container1">
-                            <img src="/img/dog4.png ">
+                            <img src="/img/dog4.png" class="pc">
                         </div>
 
                     </div>
@@ -158,7 +165,7 @@
                     <div class="demerit-box">
 
                         <div class="img-container1">
-                            <img src="/img/dog5.png " >
+                            <img src="/img/dog5.png" class="pc">
                         </div>
 
                         <div class="text-container1">
@@ -183,7 +190,7 @@
                         </div>
 
                         <div class="img-container1">
-                            <img src="/img/dog7.png ">
+                            <img src="/img/dog7.png" class="pc">
                         </div>
 
                     </div>
@@ -193,11 +200,73 @@
                     </div>
 
                 </div>
+
+                <div class="demerit_body_sp">
+
+                    <div class="demerit-box">
+
+                        <div class="text-container1">
+                            
+                            <h4>トイレのしつけ</h4>
+
+                            <img src="/img/dog4.png" >
+
+                            <p>
+                                ３年目でも課題として残っているのはトイレ問題です。<br>
+                                ソファーに粗相する癖がついてから、我が家のソファーは使用する時以外は常に封鎖されています…
+                                わんちゃんにとっても怒る機会は少ない方が良いので、トラブルの機会はあらかじめ絞って少なくします。
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="demerit-box">
+
+                        <div class="text-container1">
+                            
+                            <h4>留守番トラブル</h4>
+
+                            <img src="/img/dog5.png">
+                                                            
+                            <p>
+                                留守番中のいたずらは、注意できる人間がいないのをいいことに過激化します。<br>
+                                2時間以上家をあけることはもちろん、旅行もあまりできなくなりました。<br>
+                                長時間の外出時にはテレビをつけたり長く食べれるお菓子をあげるなどの工夫をしています。
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="demerit-box_">
+
+                        <div class="text-container1">
+                            
+                            <h4>金銭問題</h4>
+
+                            <img src="/img/dog7.png">
+                                   
+                            <p>
+                                わんちゃんのために毎月病院や生活必需品、おもちゃ、ホテル、トリミングetc…などのお金が必要になります。
+                                急用に備えた毎月の犬貯金や保険の加入なども必要になるので、家族が一人増えたくらいお金がかかります。
+                                具体的な概算を表にしてまとめました。
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="table-img">
+                        <img src="/img/table.png" alt="1ヶ月にかかる最低限のお金" >
+                    </div>
+
+                </div>
+
             </div>
         </div>
 
 
-        <div class="responsibility">
+        <div class="responsibility" id="responsibility">
 
             <div class="responsibility_background">
 
@@ -233,16 +302,16 @@
                         最後まで責任を持って看病する必要があります。
                     </p>
 
-                    <img src="/img/dog8.png">
+                    <img src="/img/dog8.png" class="pc">
                 
                 </div>
             </div>
         </div>
 
 
-        <div class="shopping">
+        <div class="shopping" id="shopping">
 
-            <div class="shopping-background">
+            <div class="shopping-background" >
 
                 <div class="shopping_d">
                     <h3>04<br>ー買ってよかったものー</h3>
@@ -252,7 +321,7 @@
                     </p>                  
                 </div>
 
-                <div class="shopping_body">
+                <div class="shopping_body pc">
     
                     <div class="shopping-box">
 
@@ -262,7 +331,9 @@
 
                         <div class="text-container2">
 
-                            <h4>ファーミネーター（小型犬長毛種用）</h4>
+                            <h4>
+                                <span class="under">ファーミネーター（小型犬長毛種用）</span>
+                            </h4>
                             <p>ダブルコートのわんちゃんは季節の変わり目に大量の毛がぬけます。
                             そんな時ささっとブラッシングするだけでかなりの毛をとることができちゃいます！<br>
                             ※最近はフェイク商品が出回っているため、公式サイトからの購入をお勧めします。
@@ -273,13 +344,10 @@
 
                     <div class="shopping-box">
 
-                        <div class="img-container2">
-                            <img src="/img/food.png" >
-                        </div>
-
                         <div class="text-container2">
 
-                            <h4>ロイヤルカナン<br>満腹感サポート小型犬用(S)</h4>
+                            <h4>ロイヤルカナン<br>
+                                <span class="under">満腹感サポート小型犬用(S)</h4></span>
                             <p>
                                 我が家のわんこが唯一痩せられたフードです。なんと2kg減に成功！
                                 病院で勧められて購入したのですが美味しそうに食べています。
@@ -288,6 +356,11 @@
                             </p>
 
                         </div>
+
+                        <div class="img-container2">
+                            <img src="/img/food.png" >
+                        </div>
+
                     </div>
                 
                     <div class="shopping-box">
@@ -298,7 +371,9 @@
 
                         <div class="text-container2">
 
-                            <h4>リッチェル<br>キャンピングキャリー折り畳みM</h4>
+                            <h4>リッチェル<br>
+                                <span class="under">キャンピングキャリー折り畳みM</h4>
+                                </span>
                             <p>
                                 小型犬なのですが我が家の胴長ちょいデカわんこでも
                                 余裕を持って入ることができました。
@@ -312,13 +387,10 @@
 
                     <div class="shopping-box">
 
-                        <div class="img-container2">
-                            <img src="/img/spray.png">
-                        </div>
-
                         <div class="text-container2">
 
-                            <h4>LION<br>植物生まれの消臭剤</h4>
+                            <h4>LION<br>
+                                <span class="under">植物生まれの消臭剤</h4></span>
                             <p>
                                 無香料で安全な素材を使っているので、トイレの失敗はもちろん、
                                 ケージの掃除やクッションなどの消臭にも使っています。
@@ -327,6 +399,152 @@
                             </p>
 
                         </div>
+
+                        <div class="img-container2">
+                            <img src="/img/spray.png">
+                        </div>
+
+                    </div>         
+                </div>
+
+
+                <div class="shopping_subtitle pc">
+
+                    <div class="img-container3">
+                        <img src="/img/bone.png">
+                    </div>
+
+                    <div class="text-container3">
+                        <h3>特別編：便利グッズ</h3>
+                    </div>
+
+                    <div class="img-container3">
+                        <img src="/img/bone.png">
+                    </div>
+
+                </div>
+
+                
+                <div class="shopping-sub pc">
+
+                    <div class="shopping-box2">
+
+                        <div class="img-container4">
+                            <img src="/img/gum.png">
+                        </div>
+
+                        <div class="text-container4">
+                            
+                            <h4>ペットプロジャパン<br>
+                                <span class="under">ナチュラル&ヘルシーガム</span>
+                            </h4>
+
+                            <p>
+                                我が家のわんこは小型犬のガムだと秒で無くなってしまう為
+                                この大きめのガムが大活躍しています。
+                                朝から晩までのお留守番時にも食べ切ることができないサイズなので、
+                                悪戦苦闘しながら噛んでいます。長時間床に転がっているので衛生面的には
+                                あまり良くないかもしれませんが…
+                            </p>
+                        </div>  
+                    </div>
+
+                    <div class="shopping-box2">
+
+                        <div class="text-container4">
+                            
+                            <h4>Furbo<br><span class="under">ドッグカメラ</h4></span>
+                            <p>
+                                ドッグカメラ界では高めの部類になるこの商品ですが
+                                なんといっても電波送信部分が内蔵型なのが一番の決め手でした。
+                                他のペットカメラを購入したときにアンテナ部分だけ壊されて
+                                使えなくなってしまったため内蔵型の方がいいかもしれません。
+                                飛び出してくるおやつにも夢中になっています。
+                            </p>
+                        </div>  
+
+                        <div class="img-container4">
+                            <img src="/img/camera.png">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="shopping_body_sp">
+    
+                    <div class="shopping-box">
+
+                        <div class="text-container2">
+
+                            <h4>
+                                <span class="under">ファーミネーター（小型犬長毛種用）</span>
+                            </h4>
+
+                            <img src="/img/furminator.png" >
+
+                            <p>ダブルコートのわんちゃんは季節の変わり目に大量の毛がぬけます。
+                            そんな時ささっとブラッシングするだけでかなりの毛をとることができちゃいます！<br>
+                            ※最近はフェイク商品が出回っているため、公式サイトからの購入をお勧めします。
+                            </p>
+                        
+                        </div>
+                    </div>
+
+                    <div class="shopping-box">
+
+                        <div class="text-container2">
+
+                            <h4>ロイヤルカナン<br><span class="under">満腹感サポート小型犬用(S)</h4></span>
+                            
+                            <img src="/img/food.png" >
+
+                            <p>
+                                我が家のわんこが唯一痩せられたフードです。なんと2kg減に成功！
+                                病院で勧められて購入したのですが美味しそうに食べています。
+                                気になる方はぜひ病院の先生に相談してみてください！
+                                ※病院からのサポートが必要な商品です。
+                            </p>
+
+                        </div>
+
+                    </div>
+                
+                    <div class="shopping-box">
+
+                        <div class="text-container2">
+
+                            <h4>リッチェル<br><span class="under">キャンピングキャリー折り畳みM</span></h4>
+
+                            <img src="/img/carry.png">
+
+                            <p>
+                                小型犬なのですが我が家の胴長ちょいデカわんこでも
+                                余裕を持って入ることができました。
+                                使わない時は薄く畳んでコンパクトに収納できます。
+                                ※売り切れていることが多いので定価で買う際は
+                                ちょっと頑張らなきゃいけないです。
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <div class="shopping-box">
+
+                        <div class="text-container2">
+
+                            <h4>LION<br><span class="under">植物生まれの消臭剤</h4></span>
+
+                            <img src="/img/spray.png">
+
+                            <p>
+                                無香料で安全な素材を使っているので、トイレの失敗はもちろん、
+                                ケージの掃除やクッションなどの消臭にも使っています。
+                                匂いはわんちゃんのストレスにもなりかねないので、
+                                日常でよく使うものはなるべく無香料のものを使ってあげています。
+                            </p>
+
+                        </div>
+
                     </div>         
                 </div>
 
@@ -348,7 +566,7 @@
                 </div>
 
                 
-                <div class="shopping-sub">
+                <div class="shopping-sub pc">
 
                     <div class="shopping-box2">
 
@@ -358,7 +576,10 @@
 
                         <div class="text-container4">
                             
-                            <h4>ペットプロジャパン<br>ナチュラル&ヘルシーガム</h4>
+                            <h4>ペットプロジャパン<br>
+                                <span class="under">ナチュラル&ヘルシーガム</span>
+                            </h4>
+
                             <p>
                                 我が家のわんこは小型犬のガムだと秒で無くなってしまう為
                                 この大きめのガムが大活躍しています。
@@ -371,13 +592,53 @@
 
                     <div class="shopping-box2">
 
+                        <div class="text-container4">
+                            
+                            <h4>Furbo<br><span class="under">ドッグカメラ</h4></span>
+                            <p>
+                                ドッグカメラ界では高めの部類になるこの商品ですが
+                                なんといっても電波送信部分が内蔵型なのが一番の決め手でした。
+                                他のペットカメラを購入したときにアンテナ部分だけ壊されて
+                                使えなくなってしまったため内蔵型の方がいいかもしれません。
+                                飛び出してくるおやつにも夢中になっています。
+                            </p>
+                        </div>  
+
                         <div class="img-container4">
                             <img src="/img/camera.png">
                         </div>
 
+                    </div>
+                </div>
+
+                <div class="shopping-sub-sp">
+
+                    <div class="shopping-box2">
+                        
                         <div class="text-container4">
                             
-                            <h4>Furbo<br>ドッグカメラ</h4>
+                            <h4>ペットプロジャパン<br><span class="under">ナチュラル&ヘルシーガム</span></h4>
+
+                            <img src="/img/gum.png">
+
+                            <p>
+                                我が家のわんこは小型犬のガムだと秒で無くなってしまう為
+                                この大きめのガムが大活躍しています。
+                                朝から晩までのお留守番時にも食べ切ることができないサイズなので、
+                                悪戦苦闘しながら噛んでいます。長時間床に転がっているので衛生面的には
+                                あまり良くないかもしれませんが…
+                            </p>
+                        </div>  
+                    </div>
+
+                    <div class="shopping-box2">
+
+                        <div class="text-container4">
+                            
+                            <h4>Furbo<br><span class="under">ドッグカメラ</h4></span>
+
+                            <img src="/img/camera.png">
+
                             <p>
                                 ドッグカメラ界では高めの部類になるこの商品ですが
                                 なんといっても電波送信部分が内蔵型なのが一番の決め手でした。
@@ -388,7 +649,9 @@
                         </div>  
                     </div>
                 </div>
+
             </div>
+        </div>
     </main>
 
     <div class="sumup">
@@ -420,7 +683,7 @@
     </div>
     
     <div class="profile">
-        <img class="profile" img src="/img/profile_background.png">
+        <img src="/img/profile_background.png">
 
         <div class="profile_body">
             <h3>ーprofileー</h3>

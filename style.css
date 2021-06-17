@@ -523,6 +523,14 @@ body {
 
 }
 
+.pc{
+  display: block;
+}
+
+.under{
+  background: linear-gradient(transparent 50%, #fbba4d 50%);
+}
+
 .titleimg {
   background-image: url(/img/header.png);
   background-position: center;
@@ -555,6 +563,9 @@ body {
   background-position: contain;
   height: 130px;
   width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  min-width: 700px;
 
 }
 
@@ -564,7 +575,6 @@ body {
   height: 80px;
   margin: 16px;
   line-height: 25px;
-  margin-right: 0px;
   text-align: center;
 
 }
@@ -585,6 +595,7 @@ body {
 }
 
 .preface1 h2 {
+  margin-top: 30px;
   font-size: 20px;
   line-height: 60px;
 
@@ -726,7 +737,10 @@ body {
 .demerit_body{
   margin: auto;
   width: 70%;
+}
 
+.demerit_body_sp{
+  display: none;
 }
 
 .text-container1 h4{
@@ -821,7 +835,6 @@ body {
   width: 110px;
   bottom: 14%;
   right: 7%;
-
 }
 
 .re-textbox h4{
@@ -878,6 +891,10 @@ body {
 
 }
 
+.shopping_body_sp{
+  display: none;
+}
+
 .shopping-box{
   display: flex;
   justify-content: space-between;
@@ -906,7 +923,6 @@ body {
   font-size: 17px;
   margin-top: 1px;
   margin-bottom: 10px;
-  text-decoration: underline;
 
 }
 
@@ -946,6 +962,10 @@ body {
 
 }
 
+.shopping-sub-sp{
+  display: none;
+}
+
 .shopping-box2{
   display: flex;
   justify-content: space-between;
@@ -974,7 +994,6 @@ body {
   font-size: 17px;
   margin-top: 1px;
   margin-bottom: 10px;
-  text-decoration: underline;
 
 }
 
@@ -995,20 +1014,20 @@ body {
   margin: auto;
   padding-top: 20px;
   min-width: 700px;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 
 }
 
 .sumup-title h3{
   text-align: center;
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   font-size: 20px;
   line-height: 23px;
 }
 
 .sumup-img{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .profile {
@@ -1020,6 +1039,7 @@ body {
 .profile img {
   width: 392px;
   height: 247px;
+  
 
 }
 
@@ -1044,4 +1064,118 @@ body {
   background-repeat: no-repeat;
   height: 120px;
   min-width: 700px;
+}
+
+
+/* sp */
+@media screen and (max-width:500px){
+
+*{
+  min-width: none;
+}
+
+body{
+  width: 100vw;
+
+}
+
+.pc{
+  display: none;
+}
+
+.nav{
+  min-width: initial;
+}
+
+.merit_body{
+  display: block;
+}
+
+.merit_background{
+  min-width: initial;
+  height: auto;
+  width: 90%;
+}
+
+.demerit_body_sp{
+  margin: auto;
+  width: 95%;
+  display: block;
+
+}
+
+.responsibility_background{
+  width: 90%;
+}
+
+.text-container1, .text-container2, .text-container3, .text-container4{
+  width: 100%;
+}
+
+.text-container1 img, .text-container2 img, .text-container3 img, .text-container4 img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.text-container1 h4, .text-container2 h4, .text-container3 h4, .text-container4 h4{
+  text-align: center;
+}
+
+.demerit_background{
+  min-width: initial;
+  width: 90%;
+}
+
+.demerit-box{
+  display: block;
+}
+
+.re-textbox{
+  width: 95%;
+  padding: 20px 10px;
+}
+
+.responsibility_background{
+  min-width: initial;
+}
+
+.shopping-box{
+  display: block;
+
+}
+
+.shopping_body_sp{
+  margin: auto;
+  width: 95%;
+  display: block;
+}
+
+.shopping-background{
+  min-width: initial;
+  width: 90%;
+}
+
+.shopping-sub-sp{
+  display: block;
+}
+
+.sumup-img img{
+  width: 100%;
+}
+
+.sumup-background{
+  min-width: initial;
+  width: 90%;
+}
+
+.footerimg{
+  min-width: initial;
+}
+
+.profile img{
+  width: 100%;
+}
+
+
+
 }
