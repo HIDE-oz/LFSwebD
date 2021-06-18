@@ -538,27 +538,18 @@ body {
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
-
+  min-width: 900px;
 }
 
-.title {
-  position: absolute;
-  top: 200px;
-  color: white;
-  font-weight: lighter;
-  margin-top: -90px;
-  margin-left: 50px;
-  font-size: 35px;
-  line-height: 50px;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-
+.titleimg-sp img{
+  display: none;
 }
 
 .nav {
   list-style: none;
   display: flex;
   background-image: url(/img/menu.png);
+  filter: grayscale(100%);
   background-size: cover;
   background-position: contain;
   height: 130px;
@@ -566,6 +557,7 @@ body {
   padding-left: 10%;
   padding-right: 10%;
   min-width: 700px;
+  filter: brightness(130%);
 
 }
 
@@ -599,7 +591,6 @@ body {
 
 }
 
-
 .preface1 h2 {
   margin-top: 30px;
   font-size: 20px;
@@ -615,18 +606,15 @@ body {
 
 .preface2 {
   margin-top: 50px;
-  margin-bottom: 90px;
+  margin-bottom: 130px;
   text-align: center;
   color: white;
   font-size: 14px;
   line-height: 23px;
-
 }
 
 .menu-title-sp{
-  font-size: 23px;
-  color: #fff;
-  text-align: center;
+  display: none;
 }
 
 .merit {
@@ -796,6 +784,10 @@ body {
   width: 100%;
 }
 
+.table-img-sp img{
+  display: none;
+}
+
 .responsibility{
   width: 100vw;
   margin-top: 90px;
@@ -903,6 +895,10 @@ body {
 
 }
 
+.shopping_subtitle{
+  font-size: 18px;
+}
+
 .shopping_body_sp{
   display: none;
 }
@@ -966,6 +962,10 @@ body {
   text-align: center;
   padding-top: 6px;
 
+}
+
+.text-container3-sp{
+  display: none;
 }
 
 .shopping-sub{
@@ -1084,7 +1084,13 @@ body {
   min-width: none;
 }
 
-body{
+.titleimg-sp img{
+  display: block;
+  width: 100vw;
+}
+
+
+.body{
   width: 100vw;
 }
 
@@ -1098,11 +1104,20 @@ body{
 
 .preface1{
   margin-bottom: 30px;
+  padding: 0 10%;
+}
+
+.preface1 h2{
+  margin-top: 0%;
+
 }
 
 .menu-title-sp{
-  margin-bottom: 2%;
-  font-size: 20px;
+  display: block;
+  font-size: 23px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .nav_sp{
@@ -1112,20 +1127,7 @@ body{
   background-color: #fff;
   padding: 4% 10%;
   box-sizing: border-box;
-}
-
-.merit-box{
-  padding: 20px;
-}
-
-.merit-box p{
-  width: 50vw;
-  margin: 0 auto;
-  
-}
-
-.merit_body{
-  display: block;
+  border-radius: 11px;
 }
 
 .merit_background{
@@ -1135,10 +1137,93 @@ body{
   background-image: none;
 }
 
+.merit_d p{
+  width: 69vw;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+.merit_d h3{
+  margin-top: 0px;
+  margin-bottom: 15px;
+  }
+
+.merit-box{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.merit-box p{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.merit_body{
+  display: block;
+}
+
+.merit-box h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.demerit{
+  margin-top: 50px;
+}
+
+.demerit_background{
+  min-width: initial;
+  width: 90%;
+}
+
 .demerit_body_sp{
   margin: auto;
   width: 95%;
   display: block;
+}
+
+.demerit-box{
+  padding-bottom: 10px;
+  display: block;
+  margin-bottom: 0%;
+}
+
+.demerit_d p{
+  width: 69vw;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+.demerit_d h3{
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  }
+
+.text-container1{
+  padding-top: 20px;
+}
+
+
+.text-container1 p{
+ width: 60vw;
+ margin: 0 auto;
+}
+
+.text-container1 h4{
+   font-size: 16px;
+ } 
+
+.demerit-box p{
+  width: 60vw;
+  margin: 0 auto;
+}
+
+.table-img-sp img{
+  display: block;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
 .responsibility_background{
@@ -1149,27 +1234,70 @@ body{
   width: 100%;
 }
 
-.text-container1 img, .text-container2 img, .text-container3 img, .text-container4 img{
-  width: 100%;
+.text-container2 img, .text-container3 img, .text-container4 img{
+  width: 47vw;
   margin-bottom: 15px;
+}
+
+.text-container1 img{
+  width: 47vw;
+  margin-bottom: 15px;
+  margin-left: 23%;
 }
 
 .text-container1 h4, .text-container2 h4, .text-container3 h4, .text-container4 h4{
   text-align: center;
 }
 
-.demerit_background{
-  min-width: initial;
-  width: 90%;
+.text-container2 p{
+  width: 65vw;
+  margin: 0 auto;
 }
 
-.demerit-box{
-  display: block;
+.text-container4 p{
+  width: 65vw;
+  margin: 0 auto;
+}
+
+.sumup p{
+  width: 80vw;
+  margin: 0 auto;
 }
 
 .re-textbox{
   width: 95%;
   padding: 20px 10px;
+}
+
+.re-textbox p{
+  width: 73vw;
+  margin-top: 10px;
+  margin-left: 18px;
+  margin-right: 10px;
+}
+
+.re-textbox h4{
+  margin: 0 20px;
+}
+
+.responsibility{
+  margin-top: 50px;
+}
+
+.responsibility_d p{
+  width: 69vw;
+  margin: 10px auto;
+  font-size: 15px;
+}
+
+.demerit_d h3{
+  margin-top: 0px;
+  margin-bottom: 15px;
+  font-size: 20px;
+  }
+
+.shopping{
+  margin-top: 50px;
 }
 
 .responsibility_background{
@@ -1178,7 +1306,6 @@ body{
 
 .shopping-box{
   display: block;
-
 }
 
 .shopping_body_sp{
@@ -1192,12 +1319,26 @@ body{
   width: 90%;
 }
 
+.shopping_d h3{
+  margin-bottom: 10px;
+}
+
+.shopping_d p{
+  width: 60vw;
+  margin: 0 auto;
+
+}
+
+.sumup{
+  margin-top: 50px;
+}
+
 .shopping-sub-sp{
   display: block;
 }
 
 .sumup-img img{
-  width: 100%;
+  width: 90%;
 }
 
 .sumup-background{
@@ -1206,6 +1347,9 @@ body{
 }
 
 .footerimg{
+  width: 100%;
+  background-size: contain;
+  height: 69px;
   min-width: initial;
 }
 
