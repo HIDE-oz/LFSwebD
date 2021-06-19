@@ -541,6 +541,14 @@ body {
   min-width: 900px;
 }
 
+.titleimg img{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 65px;
+  min-width: 350px;
+}
+
+
 .titleimg-sp img{
   display: none;
 }
@@ -556,7 +564,7 @@ body {
   width: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  min-width: 700px;
+  min-width: 900px;
   filter: brightness(130%);
 
 }
