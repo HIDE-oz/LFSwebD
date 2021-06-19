@@ -567,21 +567,20 @@ body {
 
 
 .nav li {
-  width: 300px;
   width: 100%;
   height: 80px;
-  margin: 16px;
   line-height: 25px;
   text-align: center;
-
+  margin: 16px;
+  
 }
 
 .nav li a {
   text-decoration: none;
   color: #4d4d4d;
   text-align: center;
-
 }
+
 
 .preface1 {
   text-align: center;
@@ -645,6 +644,7 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
+  line-height: 25px;
 
 }
 
@@ -701,7 +701,7 @@ body {
 
 .demerit {
   width: 100vw;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 14px;
   line-height: 18px;
 
@@ -724,6 +724,7 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
+  line-height: 25px;
 
 }
 
@@ -790,7 +791,7 @@ body {
 
 .responsibility{
   width: 100vw;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 14px;
   line-height: 18px;
 
@@ -813,15 +814,19 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 25px;
 }
 
 .responsibility_d p{
   font-size: 16px;
   margin-top: 10px;
   text-align: center;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   
+}
+
+.shopping-sub-sp{
+  display: none;
 }
 
 .re-textbox{
@@ -869,7 +874,7 @@ body {
  
 .shopping {
   width: 100vw;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 14px;
   line-height: 18px;
 
@@ -879,6 +884,7 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 20px;
+  line-height: 25px;
 }
 
 .shopping_d p {
@@ -895,8 +901,8 @@ body {
 
 }
 
-.shopping_subtitle{
-  font-size: 18px;
+.shopping_subtitle_sp{
+  display: none;
 }
 
 .shopping_body_sp{
@@ -1012,7 +1018,7 @@ body {
 .sumup {
   text-align: center;
   width: 100vw;
-  margin-top: 90px;
+  margin-top: 50px;
   font-size: 14px;
   line-height: 18px;
 }
@@ -1035,7 +1041,7 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 25px;
 }
 
 .sumup-img{
@@ -1127,7 +1133,7 @@ body {
   background-color: #fff;
   padding: 4% 10%;
   box-sizing: border-box;
-  border-radius: 11px;
+  border-radius: 6px;
 }
 
 .merit_background{
@@ -1135,6 +1141,7 @@ body {
   height: auto;
   width: 90%;
   background-image: none;
+  border-radius: 6px;
 }
 
 .merit_d p{
@@ -1146,6 +1153,7 @@ body {
 .merit_d h3{
   margin-top: 0px;
   margin-bottom: 15px;
+  line-height: 18px;
   }
 
 .merit-box{
@@ -1174,6 +1182,7 @@ body {
 .demerit_background{
   min-width: initial;
   width: 90%;
+  border-radius: 6px;
 }
 
 .demerit_body_sp{
@@ -1197,7 +1206,7 @@ body {
 .demerit_d h3{
   margin-top: 0px;
   margin-bottom: 15px;
-  font-size: 20px;
+  line-height: 19px;
   }
 
 .text-container1{
@@ -1228,6 +1237,7 @@ body {
 
 .responsibility_background{
   width: 90%;
+  border-radius: 6px;
 }
 
 .text-container1, .text-container2, .text-container3, .text-container4{
@@ -1265,23 +1275,29 @@ body {
 }
 
 .re-textbox{
-  width: 95%;
+  width: 88%;
   padding: 20px 10px;
 }
 
 .re-textbox p{
-  width: 73vw;
+  width: 70vw;
   margin-top: 10px;
-  margin-left: 18px;
+  margin-left: 15px;
   margin-right: 10px;
 }
 
 .re-textbox h4{
-  margin: 0 20px;
+  margin: 0 15px;
 }
 
 .responsibility{
   margin-top: 50px;
+}
+
+.responsibility_d h3{
+  margin-top: 0px;
+  margin-bottom: 15px;
+  line-height: 19px;
 }
 
 .responsibility_d p{
@@ -1290,18 +1306,13 @@ body {
   font-size: 15px;
 }
 
-.demerit_d h3{
-  margin-top: 0px;
-  margin-bottom: 15px;
-  font-size: 20px;
-  }
-
 .shopping{
   margin-top: 50px;
 }
 
 .responsibility_background{
   min-width: initial;
+  border-radius: 6px;
 }
 
 .shopping-box{
@@ -1317,16 +1328,28 @@ body {
 .shopping-background{
   min-width: initial;
   width: 90%;
+  border-radius: 6px;
 }
 
 .shopping_d h3{
-  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  line-height: 19px;
 }
 
 .shopping_d p{
   width: 60vw;
   margin: 0 auto;
 
+}
+
+.shopping_subtitle_sp{
+  font-size: 18px;
+  display: flex;
+}
+
+.shopping-sub-sp{
+  display: block;
 }
 
 .sumup{
@@ -1341,9 +1364,19 @@ body {
   width: 90%;
 }
 
+.sumup-title h3{
+  margin-top: 5px;
+}
+
+.sumup p{
+  width: 60vw;
+  margin: 0 auto;
+}
+
 .sumup-background{
   min-width: initial;
   width: 90%;
+  border-radius: 6px;
 }
 
 .footerimg{
@@ -1354,7 +1387,7 @@ body {
 }
 
 .profile img{
-  width: 100%;
+  width: 98%;
 }
 
 
